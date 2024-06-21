@@ -1,5 +1,5 @@
 import { NavLink, useParams } from "react-router-dom";
-
+import Footer from "./footer";
 import useFetch from "./useFetch";
 import MovieRecommendations from './MovieRecommendations';
 
@@ -20,7 +20,7 @@ const SingleMovie = () => {
     );
   }
 
-  return (
+  return (<>
     <section className="movie-section" style={{
       backgroundImage: `url(${movie.Poster})`
     }}>
@@ -42,8 +42,11 @@ const SingleMovie = () => {
         
       </div>
       <MovieRecommendations />
+      
 
     </section>
+    
+    </>
   );
 };
 

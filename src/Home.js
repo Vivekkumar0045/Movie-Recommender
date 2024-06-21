@@ -1,5 +1,6 @@
 import Movie from "./Movie";
 import Search from "./Search";
+import Footer from "./footer";
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
         }
         <Search />
         <Movie />
+        
       </div>
+      <Footer />
     </>
   );
 };

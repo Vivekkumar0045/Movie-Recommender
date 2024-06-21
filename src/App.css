@@ -382,6 +382,7 @@ a:hover img {
 
 .movietext{
   display: flex;
+  flex-direction: row;
   color: white;
   align-items: center;
   /* border: 2px solid red; */
@@ -399,4 +400,36 @@ a:hover img {
 
 .mvtitle{
   color: rgb(197, 5, 5);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -2px 10px rgba(28, 28, 28, 0.1);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #faf9f9;
+}
+
+.connect-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f60919;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #140707;
 }
